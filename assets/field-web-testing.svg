@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Web testing browser window</title><desc id="desc">A browser and code inspection illustration with a moving test line and blinking cursor.</desc>
+<style>
+.ink{stroke:#59423f;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.code{stroke:#b18b83;stroke-width:3;stroke-linecap:round}.scanline{animation:scanline 2.6s ease-in-out infinite}.cursor{animation:blink 1s steps(2,start) infinite}.testdot{animation:pulse 2.1s ease-in-out infinite}@keyframes scanline{0%,100%{transform:translateY(0);opacity:.45}50%{transform:translateY(74px);opacity:1}}@keyframes blink{50%{opacity:0}}@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.scanline,.cursor,.testdot{animation:none}}
+</style>
+<rect x="41" y="27" width="278" height="177" rx="8" fill="#fffaf7" stroke="#dfc9c4" stroke-width="1.5"/><path d="M41 56h278" stroke="#dfc9c4" stroke-width="1.5"/><circle cx="57" cy="41" r="3.3" fill="#bc8e86"/><circle cx="69" cy="41" r="3.3" fill="#d6b2aa"/><circle cx="81" cy="41" r="3.3" fill="#e8d0ca"/><rect x="103" y="35" width="111" height="12" rx="4" fill="#f1e7e2"/><path d="M58 73h75M58 86h58M58 99h68M58 112h50M58 125h72M58 138h43" class="code" fill="none"/>
+<rect x="159" y="72" width="139" height="112" rx="4" fill="#f4e8e3" stroke="#d8b5ad" stroke-width="1.4"/><path d="M173 88h45M173 101h83M173 114h67M173 127h91M173 140h51M173 153h75" class="code" fill="none"/><path d="M173 88h45M173 114h67M173 140h51" stroke="#a96d63" stroke-width="3" stroke-linecap="round" fill="none"/>
+<g class="scanline"><path d="M153 106H305" stroke="#9c665f" stroke-width="2.3"/><path d="m299 101 6 5-6 5" fill="none" stroke="#9c665f" stroke-width="2.3"/></g><rect class="cursor" x="242" y="148" width="3" height="10" rx="1" fill="#9c665f"/><circle class="testdot" cx="286" cy="88" r="4" fill="#9c665f"/>
+<g font-family="monospace" font-size="9" fill="#8b645c" letter-spacing=".8"><text x="43" y="220">REQUEST → RESPONSE → VERIFY</text></g>
+</svg>

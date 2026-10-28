@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d13">
+  <meta name="description" content="An open-source-first field guide to reconnaissance, network analysis, digital forensics, and practical security tools.">
+  <title>Fieldnotes — Open-source OSINT & Security Tools</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme-night.css">
+</head>
+<body class="home-page">
+  <header class="topbar">
+    <a class="wordmark" href="index.html" aria-label="Fieldnotes home"><span class="wordmark-icon">F.</span><span>FIELDNOTES<small>OPEN-SOURCE TOOL INDEX</small></span></a>
+    <nav class="topnav" aria-label="Main navigation"><a href="#categories">Categories</a><a href="#method">How to use this index</a><a href="#about">About</a></nav>
+    <a class="header-github" href="#about">About this index <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main>
+    <section class="front-page page-width">
+      <div class="front-copy">
+        <p class="overline"><span class="overline-rule"></span> A WORKING INDEX FOR CURIOUS INVESTIGATORS</p>
+        <h1>Good tools.<br><em>Clear notes.</em><br>Better questions.</h1>
+        <p class="front-intro">A practical directory for people who want to understand the internet, examine systems, and document what they find. Open-source projects come first; licensing and scope notes stay visible.</p>
+        <div class="front-actions"><a class="button-primary" href="#categories">Choose a field <span aria-hidden="true">↓</span></a><span class="quiet-note">75 tools <i>·</i> 8 fields <i>·</i> no account needed</span></div>
+        <div class="front-search">
+          <label for="toolSearch">Looking for a specific tool?</label>
+          <div class="search-box"><span aria-hidden="true">⌕</span><input id="toolSearch" type="search" placeholder="Try “Nmap”, “DNS”, “packet capture”…" autocomplete="off"><button id="clearSearch" type="button" aria-label="Clear search" hidden>Clear</button></div>
+          <div id="searchResults" class="search-results" hidden aria-live="polite"></div>
+        </div>
+      </div>
+      <aside class="field-note" aria-label="Field note">
+        <div class="note-topline"><span>FIELD NOTE / 001</span><span>READ BEFORE USE</span></div>
+        <div class="note-illustration" aria-hidden="true">
+          <svg viewBox="0 0 360 245" role="img"><path class="map-line" d="M17 183 61 145 82 160 127 93 160 116 197 52 228 81 270 35 338 62"/><path class="map-line map-line-light" d="M16 215 77 197 119 211 172 164 216 176 265 136 341 149"/><circle cx="61" cy="145" r="5"/><circle cx="127" cy="93" r="5"/><circle cx="197" cy="52" r="5"/><circle cx="270" cy="35" r="5"/><circle cx="265" cy="136" r="4"/><path class="map-tick" d="M61 125v-13m-20 33H28M127 72V58m-20 35H94M197 31V18m-20 34h-14M270 15V5m20 30h15"/></svg>
+          <span class="map-label label-one">ORIGIN / SOURCE</span><span class="map-label label-two">VERIFY THE LINK</span><span class="map-label label-three">KEEP A TIMESTAMP</span>
+        </div>
+        <p class="note-quote">“A lead is not a conclusion. Follow the source, record the method, and leave room to be wrong.”</p>
+        <div class="note-footer"><span>PRINCIPLE 01</span><span>OBSERVE · VERIFY · DOCUMENT</span></div>
+      </aside>
+      <div class="front-bottomline"><span>BUILT FOR RESEARCH, DEFENSE & LEARNING</span><span>USE ONLY WITHIN YOUR AUTHORIZED SCOPE</span></div>
+    </section>
+
+    <section class="category-section page-width" id="categories">
+      <div class="section-intro"><div><p class="overline">01 / THE INDEX</p><h2>Choose your <em>field.</em></h2></div><p>Each field has its own way of looking at a problem. Pick one to see the tools, starter commands, documentation, and source repositories that belong there.</p></div>
+      <div class="category-grid" id="categoryGrid"></div>
+      <noscript><p class="noscript-note">Enable JavaScript to browse this static tool index.</p></noscript>
+    </section>
+
+    <section class="method-section" id="method"><div class="page-width method-grid">
+      <div><p class="overline">02 / A PRACTICAL METHOD</p><h2>Start small.<br><em>Leave evidence.</em></h2></div>
+      <ol class="method-list"><li><span>01</span><div><strong>Define the question</strong><p>Know what you need to learn and which assets, accounts, or records are in scope.</p></div></li><li><span>02</span><div><strong>Begin with the official guide</strong><p>Commands here are starting points. Check the upstream docs and verify the installed version.</p></div></li><li><span>03</span><div><strong>Keep the trail</strong><p>Record timestamps, sources, tool versions, limitations, and evidence integrity.</p></div></li></ol>
+    </div></section>
+
+    <section class="about-section page-width" id="about"><div class="about-copy"><p class="overline">03 / ABOUT FIELDNOTES</p><h2>A directory, not a shortcut.</h2><p>Fieldnotes is a lightweight static reference to open-source OSINT and security tooling. The goal is to make dependable tools easier to discover without hiding the context behind a flashy interface.</p><p>Some projects offer commercial editions or optional hosted services; those differences are noted where relevant. Confirm the upstream license, release status, dependencies, and platform support before relying on a tool.</p></div><div class="about-stat-list"><div><span>TOOLS</span><strong id="toolCount">075</strong></div><div><span>FIELDS</span><strong>08</strong></div><div><span>BACKEND</span><strong>NONE</strong></div><div><span>FORMAT</span><strong>STATIC</strong></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-wordmark" href="index.html">FIELDNOTES <span>↗</span></a><p>Built for careful research. Respect privacy, terms of service, and the law. Never test systems without permission.</p><div><a href="https://osintframework.com/" target="_blank" rel="noopener noreferrer">OSINT Framework ↗</a><a href="LICENSE">Directory license ↗</a></div></footer>
+  <script src="tools-data.js"></script><script src="home.js"></script>
+  <script src="loading-screen.js"></script>
+</body>
+</html>

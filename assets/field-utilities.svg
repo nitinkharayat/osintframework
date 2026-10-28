@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Utilities terminal and tool gear</title><desc id="desc">A quiet workstation illustration with a blinking terminal cursor and a slowly turning utility gear.</desc>
+<style>
+.ink{stroke:#505951;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}.gear{transform-box:fill-box;transform-origin:center;animation:gear-turn 8s linear infinite}.cursor{animation:blink 1s steps(2,start) infinite}.status{animation:status 2.4s ease-in-out infinite}@keyframes gear-turn{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes status{0%,100%{opacity:.35}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.gear,.cursor,.status{animation:none}}
+</style>
+<rect x="38" y="37" width="224" height="150" rx="7" fill="#fffef9" stroke="#b9c0b7" stroke-width="2"/><path d="M38 64h224" stroke="#b9c0b7" stroke-width="2"/><circle cx="52" cy="50" r="3" fill="#a5afa4"/><circle cx="64" cy="50" r="3" fill="#a5afa4"/><circle cx="76" cy="50" r="3" fill="#a5afa4"/><path d="M57 91 69 101 57 111M83 112h52M57 132 69 142 57 152M83 153h73" fill="none" stroke="#676f67" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect class="cursor" x="164" y="143" width="3.5" height="13" rx="1" fill="#676f67"/>
+<path d="M116 188v9M184 188v9M93 197h115" stroke="#b9c0b7" stroke-width="3" stroke-linecap="round"/>
+<g class="gear" transform="translate(273 143)"><path d="M0-42 8-36 17-39 21-29 31-25 29-15 39-8 33 0 39 9 29 16 31 26 21 30 17 40 8 37 0 44-8 37-17 40-21 30-31 26-29 16-39 9-33 0-39-8-29-15-31-25-21-29-17-39-8-36Z" fill="#e2e7dd" stroke="#505951" stroke-width="2.3"/><circle r="18" fill="#f1f2ee" stroke="#505951" stroke-width="2.3"/><circle r="6" fill="#676f67"/></g><path class="status" d="M280 59h30M280 69h19M280 79h26" stroke="#8a9587" stroke-width="2.5" stroke-linecap="round"/>
+<g font-family="monospace" font-size="9" fill="#676f67" letter-spacing="1"><text x="39" y="220">SMALL TOOLS · REPEATABLE WORK</text></g>
+</svg>

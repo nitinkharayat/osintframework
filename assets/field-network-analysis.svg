@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Network packet flow</title><desc id="desc">Connected network nodes exchange animated packets along visible paths.</desc>
+<style>
+.edge{fill:none;stroke:#9aa4c0;stroke-width:2}.node{fill:#fbfbfe;stroke:#66708f;stroke-width:2.3}.packet{fill:#66708f}.pulse{animation:node-pulse 2.3s ease-in-out infinite}.p2{animation-delay:.45s}.p3{animation-delay:1s}.p4{animation-delay:1.4s}@keyframes node-pulse{0%,100%{fill:#fbfbfe;stroke-width:2.3}50%{fill:#d4d9e8;stroke-width:4}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+</style>
+<path class="edge" d="M66 63 154 113 270 58M66 63 84 171 180 190 270 58M154 113 255 154 180 190M154 113 270 58M84 171 154 113M255 154 270 58"/>
+<path d="M66 63 154 113 270 58" fill="none" stroke="#66708f" stroke-width="3" stroke-dasharray="5 9" opacity=".35"/>
+<g><circle class="node pulse" cx="66" cy="63" r="16"/><circle class="node pulse p2" cx="154" cy="113" r="20"/><circle class="node pulse p3" cx="270" cy="58" r="17"/><circle class="node pulse p4" cx="84" cy="171" r="14"/><circle class="node pulse p2" cx="180" cy="190" r="15"/><circle class="node pulse" cx="255" cy="154" r="16"/></g>
+<circle r="4.5" class="packet"><animateMotion dur="2.5s" repeatCount="indefinite" path="M66 63L154 113L270 58"/></circle><circle r="3.5" class="packet"><animateMotion dur="3s" begin="-.8s" repeatCount="indefinite" path="M84 171L154 113L255 154"/></circle><circle r="3.5" class="packet"><animateMotion dur="2.8s" begin="-1.1s" repeatCount="indefinite" path="M180 190L255 154L270 58"/></circle>
+<g fill="none" stroke="#aab1c8" stroke-width="1.2"><path d="M33 112h23M295 118h27M108 30v17M199 62v20M222 183h19"/></g><g font-family="monospace" font-size="9" fill="#66708f" letter-spacing="1"><text x="34" y="26">PACKET ROUTE</text><text x="246" y="216">TTL / FLOW</text></g>
+</svg>

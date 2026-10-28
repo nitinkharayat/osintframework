@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Network scanning radar</title><desc id="desc">A radar display with a rotating sweep and pulsing host markers.</desc>
+<style>
+.ring{fill:none;stroke:#93a8af;stroke-width:1.5}.minor{fill:none;stroke:#c7d1d2;stroke-width:1}.sweep{transform-box:fill-box;transform-origin:center;animation:radar-turn 4s linear infinite}.blip{animation:blip 1.8s ease-in-out infinite}.b2{animation-delay:.5s}.b3{animation-delay:1s}@keyframes radar-turn{to{transform:rotate(360deg)}}@keyframes blip{0%,100%{opacity:.25;transform:scale(.8)}45%{opacity:1;transform:scale(1.18)}}@media(prefers-reduced-motion:reduce){.sweep,.blip{animation:none}}
+</style>
+<rect x="36" y="28" width="288" height="174" rx="9" fill="#f9fbfb" stroke="#cbd4d6" stroke-width="1.5"/><path d="M36 55h288" stroke="#cbd4d6" stroke-width="1.5"/><circle cx="51" cy="42" r="3" fill="#96aab0"/><circle cx="62" cy="42" r="3" fill="#96aab0"/><path d="M79 42h52" stroke="#c2cdcf" stroke-width="2" stroke-linecap="round"/>
+<g transform="translate(180 126)"><circle class="ring" r="67"/><circle class="ring" r="49"/><circle class="ring" r="31"/><circle class="ring" r="13"/><path class="minor" d="M-78 0H78M0-78V78M-55-55 55 55M-55 55 55-55"/>
+<g class="sweep"><path d="M0 0V-68A68 68 0 0 1 56 38Z" fill="#9cb2b8" opacity=".48"/><path d="M0 0V-68" stroke="#587b86" stroke-width="2"/></g>
+<circle class="blip" cx="27" cy="-22" r="5" fill="#567886"/><circle class="blip b2" cx="-42" cy="17" r="4" fill="#567886"/><circle class="blip b3" cx="12" cy="48" r="4" fill="#567886"/><circle r="4" fill="#405f69"/></g>
+<g font-family="monospace" font-size="9" fill="#647b82" letter-spacing="1"><text x="50" y="187">HOST MAP</text><text x="251" y="187">LIVE / 04</text></g>
+</svg>

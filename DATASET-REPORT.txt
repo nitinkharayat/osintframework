@@ -1,0 +1,15 @@
+Tool count: 75
+Category count: 8
+Unique ids: 75
+Category distribution:
+- Reconnaissance: 12
+- Scanning & Enumeration: 10
+- Web Exploitation & Testing: 10
+- Cryptography & Hashing: 8
+- Network & Packet Analysis: 9
+- Forensics & Log Analysis: 8
+- OSINT Frameworks & Aggregators: 7
+- Productivity & Utilities: 11
+
+
+Visual assets: 8 original category-specific animated SVG illustrations are bundled locally under assets/; no remote image dependency is required.

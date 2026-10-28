@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 230" role="img" aria-labelledby="title desc">
+<title id="title">Cryptography lock and cipher</title><desc id="desc">A secure lock opens while cipher characters drift through the background.</desc>
+<style>
+.ink{stroke:#3f5942;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}.cipher{font-family:monospace;font-size:12px;fill:#93a68a;animation:drift 5s linear infinite}.c2{animation-delay:-2s}.c3{animation-delay:-3.5s}.shackle{transform-box:view-box;transform-origin:113px 103px;animation:unlock 3.8s ease-in-out infinite}.keyhole{animation:key-pulse 3.8s ease-in-out infinite}@keyframes drift{0%{opacity:.1;transform:translateY(10px)}50%{opacity:.65}100%{opacity:.1;transform:translateY(-15px)}}@keyframes unlock{0%,18%{transform:rotate(0)}38%,80%{transform:rotate(-25deg)}100%{transform:rotate(0)}}@keyframes key-pulse{0%,100%{opacity:.6}40%{opacity:1}}@media(prefers-reduced-motion:reduce){.cipher,.shackle,.keyhole{animation:none}}
+</style>
+<g class="cipher"><text x="33" y="60">A9 / 0F / C2</text><text class="c2" x="245" y="66">SHA-256</text><text class="c3" x="24" y="186">0101 1010</text><text x="253" y="190">E3 · 7B</text></g>
+<path d="M113 103V76a67 67 0 0 1 134 0v27" fill="none" stroke="#8ea787" stroke-width="13" stroke-linecap="round"/><path class="shackle" d="M113 103V76a67 67 0 0 1 134 0v27" fill="none" stroke="#3f5942" stroke-width="7" stroke-linecap="round"/>
+<rect x="88" y="97" width="184" height="108" rx="13" fill="#fbfcf6" stroke="#3f5942" stroke-width="2.5"/><path d="M106 116h148" stroke="#c9d7c2" stroke-width="1.5"/><g class="keyhole" fill="#486b4a"><circle cx="180" cy="145" r="13"/><path d="M174 154h12l5 25h-22Z"/></g><path d="M38 118h25M297 118h25M50 136h18M292 136h18" stroke="#a6b69f" stroke-width="1.5" stroke-linecap="round"/>
+<g font-family="monospace" font-size="9" fill="#61785b" letter-spacing="1"><text x="39" y="32">VERIFY THE KEY</text><text x="259" y="222">SEALED / OPEN</text></g>
+</svg>
