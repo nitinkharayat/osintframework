@@ -1,4 +1,6 @@
-# Fieldnotes — Open-source OSINT & Security Tools
+# Open-source OSINT & Security Tools
+(osintbynitin.vercel.app)
+
 
 A dependency-free, static directory of **75 open-source OSINT and security tools** across eight fields. The design uses a restrained dark field-journal aesthetic: soft rounded surfaces, subtle atmospheric gradients, handwritten/cursive accents, and different muted accent tones for each field. A brief animated loading screen introduces each page. Tool entries include commands, usage notes, install/access guidance, documentation and repository links.
 
